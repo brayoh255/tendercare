@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffdd00;
+    font-family: Arial, sans-serif;
+}
+
+#splash-screen img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#splash-screen p {
+    font-size: 24px;
+    color: #333;
+}
